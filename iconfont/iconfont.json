@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "7567773",
+      "name": "24gl-phoneLoudspeaker",
+      "font_class": "24gl-phoneLoudspeaker",
+      "unicode": "e94f",
+      "unicode_decimal": 59727
+    },
+    {
+      "icon_id": "12872681",
+      "name": "公共-邮箱",
+      "font_class": "gonggong-youxiang",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
       "icon_id": "1664362",
       "name": "下箭头",
       "font_class": "xiajiantou",

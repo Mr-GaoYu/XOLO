@@ -677,9 +677,7 @@ input[type="button"]:active {
 }
 
 .bg-cover {
-  display: block;
-  width: 100%;
-  height: 100%;
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1773,7 +1771,7 @@ figure img {
 
 .loop-overlay {
   --grid-row-gap: 26px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .block-highlights .loop-small {

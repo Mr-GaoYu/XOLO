@@ -1,0 +1,208 @@
+.bg-white {
+  background-color: #fff;
+}
+
+.px-15 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.relative {
+  position: relative;
+}
+
+.default-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.default-padding,
+.default-padding-top,
+.default-padding-bottom,
+.default-padding-mx {
+  position: relative;
+}
+
+
+
+
+/* ============================================================== 
+     # Contact
+=================================================================== */
+
+.contact-us-area .contact-items > .row {
+  margin-left: 0;
+}
+
+.contact-us-area .contact-items .address-box {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-us-area .contact-items .address-box ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us-area .contact-items .address-box ul li {
+  margin: 0 30px;
+}
+
+.contact-us-area .contact-items .address-box .address-info {
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+  padding: 30px;
+  background: #ffffff;
+  right: 30px;
+}
+
+.contact-us-area .contact-items .address-box ul li h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.contact-us-area .contact-items .address-box ul li h5 i {
+    margin-right: 5px;
+    color: #1ebeb6;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.contact-us-area .address-items {
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center center;
+}
+
+.contact-us-area .address-items::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #001d4c;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.contact-us-area .address-items .item {
+  margin-bottom: 30px;
+}
+
+.contact-us-area .address-items .item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-us-area .address-items .item h4 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.contact-us-area .contact-form-box {
+  padding-left: 50px;
+}
+
+.contact-us-area .contact-form-box h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.contact-us-area .contact-form-box h2 strong {
+  display: block;
+  color: #1ebeb6;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.contact-us-area .contact-form-box input, 
+.contact-us-area .contact-form-box textarea {
+  border: none;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 0;
+  border-radius: inherit;
+}
+
+.contact-us-area .contact-form-box input:focus, 
+.contact-us-area .contact-form-box textarea:focus {
+  box-shadow: inherit;
+}
+
+.contact-us-area .contact-form-box textarea {
+  min-height: 150px;
+}
+
+.contact-us-area form button {
+  background: linear-gradient(90deg, rgba(30,190,182,1) 0%, rgba(0,130,124,1) 100%);
+  padding: 4px 35px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.contact-us-area .address-items .item li {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-us-area .address-items .item li:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.contact-us-area .address-items .item:last-child li {
+  border: none;
+  padding: 0;
+}
+
+form img.loader {
+    margin-left: 10px;
+}
+
+/* Google Maps */
+
+.google-maps iframe {
+  border: medium none;
+  height: 550px;
+  margin-bottom: -10px;
+  width: 100%;
+}
+
+.maps-area {
+  overflow: hidden;
+}
+
+
+input {
+  border: 1px solid #e7e7e7;
+  border-radius: inherit;
+  box-shadow: inherit;
+  min-height: 50px;
+}

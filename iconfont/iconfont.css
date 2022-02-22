@@ -1,11 +1,8 @@
 @font-face {
-  font-family: "iconfont";
-  /* Project id 2697546 */
-  src: url('iconfont.woff2?t=1645353347190') format('woff2'),
-    url('iconfont.woff?t=1645353347190') format('woff'),
-    url('iconfont.ttf?t=1645353347190') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: "iconfont"; /* Project id 2697546 */
+  src: url('iconfont.woff2?t=1645503246369') format('woff2'),
+       url('iconfont.woff?t=1645503246369') format('woff'),
+       url('iconfont.ttf?t=1645503246369') format('truetype');
 }
 
 .iconfont {
@@ -54,25 +51,12 @@
   }
 }
 
-.tsi-chevron-left:before {
-  display: inline-block;
-  content: "\e601";
-  font-family: iconfont;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1;
+.icon-24gl-phoneLoudspeaker:before {
+  content: "\e94f";
 }
 
-.tsi-chevron-down:before {
-  display: inline-block;
-  content: "\e601";
-  font-family: iconfont;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1;
-  color: #fff !important;
+.icon-gonggong-youxiang:before {
+  content: "\e65c";
 }
 
 .icon-xiajiantou:before {

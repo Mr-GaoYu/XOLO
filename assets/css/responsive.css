@@ -1,0 +1,83 @@
+/*================================ 
+    #RESPONSIVE CSS 
+====================================*/
+
+/* Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* Contact */
+  .contact-us-area .contact-items .address-box {
+    min-height: 400px;
+  }
+
+  .contact-us-area .contact-items .address-box .address-info {
+    bottom: -30px;
+    box-shadow: 0 0 10px #e7e7e7;
+  }
+
+  .contact-us-area .contact-items>.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-us-area .contact-form-box {
+    padding: 0;
+    margin-top: 60px;
+  }
+
+  /* Contact */
+  .contact-us-area .contact-items .address-box {
+    min-height: 400px;
+  }
+
+  .contact-us-area .contact-items .address-box .address-info {
+    bottom: -30px;
+    box-shadow: 0 0 10px #e7e7e7;
+  }
+
+  .contact-us-area .contact-items>.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-us-area .contact-form-box {
+    padding: 0;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .contact-us-area .contact-items .address-box ul {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-us-area .contact-items .address-box ul li {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .contact-us-area .contact-items .address-box ul li:first-child {
+    margin-top: 0;
+  }
+
+  .google-maps iframe {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-us-area .contact-items .address-box {
+    min-height: 400px;
+  }
+
+  .contact-us-area .contact-form-box {
+    padding: 0;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .contact-us-area .contact-items .address-box .address-info {
+    bottom: -30px;
+    box-shadow: 0 0 10px #e7e7e7;
+  }
+}
