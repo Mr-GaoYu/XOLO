@@ -1,8 +1,11 @@
 @font-face {
-  font-family: "iconfont"; /* Project id 2697546 */
-  src: url('iconfont.woff2?t=1645503246369') format('woff2'),
-       url('iconfont.woff?t=1645503246369') format('woff'),
-       url('iconfont.ttf?t=1645503246369') format('truetype');
+  font-family: "iconfont";
+  /* Project id 2697546 */
+  src: url('iconfont.woff2?t=1645353347190') format('woff2'),
+    url('iconfont.woff?t=1645353347190') format('woff'),
+    url('iconfont.ttf?t=1645353347190') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .iconfont {
@@ -49,6 +52,10 @@
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
+}
+
+.icon-qiehuanxiaoyuandian:before {
+  content: "\e611";
 }
 
 .icon-24gl-phoneLoudspeaker:before {

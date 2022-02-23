@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "11141020",
+      "name": "切换小圆点",
+      "font_class": "qiehuanxiaoyuandian",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
       "icon_id": "7567773",
       "name": "24gl-phoneLoudspeaker",
       "font_class": "24gl-phoneLoudspeaker",
