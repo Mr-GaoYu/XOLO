@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "2966203",
+      "name": "经验",
+      "font_class": "jingyan",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "3762534",
+      "name": "目标",
+      "font_class": "mubiao",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "6756283",
+      "name": "团队",
+      "font_class": "tuandui",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
       "icon_id": "11141020",
       "name": "切换小圆点",
       "font_class": "qiehuanxiaoyuandian",

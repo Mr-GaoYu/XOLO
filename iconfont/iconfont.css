@@ -54,6 +54,18 @@
   }
 }
 
+.icon-jingyan:before {
+  content: "\e613";
+}
+
+.icon-mubiao:before {
+  content: "\e64a";
+}
+
+.icon-tuandui:before {
+  content: "\e604";
+}
+
 .icon-qiehuanxiaoyuandian:before {
   content: "\e611";
 }
